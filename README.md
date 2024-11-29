@@ -29,19 +29,19 @@ npm install
 This application uses the TMDB API to fetch data. You’ll need an API key from TMDB.
 
 
-Steps to get the TMDB API key:
+1. Steps to get the TMDB API key:
 
 
-Visit TMDB.
+2. Visit TMDB.
 
 
-Create an account or log in.
+3. Create an account or log in.
 
 
-Go to your account settings, then navigate to the API section.
+4. Go to your account settings, then navigate to the API section.
 
 
-Generate a new API key.
+5. Generate a new API key.
 
 
 In tmdb.js file, replace
