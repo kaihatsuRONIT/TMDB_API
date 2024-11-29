@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../css/FilterDialog.css';
-import { getGenres } from '../services/tmdb'; // Fetch genres from TMDB API
+import { getGenres } from '../../tmdb'; // Fetch genres from TMDB API
 
 const FilterDialog = ({ filters, type, onApplyFilter, onClose }) => {
   const [genres, setGenres] = useState([]);

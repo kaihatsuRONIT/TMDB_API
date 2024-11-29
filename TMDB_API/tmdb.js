@@ -1,7 +1,6 @@
 import axios from 'axios';
-import { cacheResponse, getCachedResponse } from './cache'; // Import caching utilities
-const API_KEY = "0482da0c35e12134c74c1e3b39b44826";
-//having issues with .env files so stored the api key here
+import { cacheResponse, getCachedResponse } from './src/services/cache'; // Import caching utilities
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = 'https://api.themoviedb.org/3';
 //now to access any api from tmdb we have to follow some convention:- "${BASE_URL}{your_request}?api_key=${API_KEY}&query=${query}"
 

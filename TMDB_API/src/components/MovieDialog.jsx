@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../css/MovieDialog.css';
-import { getMovieCredits, getTVCredits, getVideos } from '../services/tmdb'; //fetches movie an tvshow cast and trailer (if available)
+import { getMovieCredits, getTVCredits, getVideos } from '../../tmdb'; //fetches movie an tvshow cast and trailer (if available)
 
 const MovieDialog = ({ item, type, onClose }) => {
   const [trailerKey, setTrailerKey] = useState(null);

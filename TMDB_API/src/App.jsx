@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import {
   searchMovies, searchTVShows, getPopularMovies,
   getPopularTVShows
-} from './services/tmdb';
+} from '../tmdb';
 import SearchBar from './components/SearchBar';
 import MovieList from './components/MovieList';
 import MovieDialog from './components/MovieDialog';
