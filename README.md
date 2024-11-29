@@ -7,6 +7,17 @@ This project allows you to explore the TMDB (The Movie Database) API. You can se
 4. Display popular movies/TV shows when the app is loaded.
 
 # Setup Instructions
-Prerequisites
+# Prerequisites
 1. Node.js (v16 or higher) installed on your machine.
 2. npm (Node Package Manager) installed.
+
+# 1. Clone the Repository
+Clone this repository to your local machine using the following command:
+git clone https://github.com/your-username/TMDB_API.git
+
+# 2. Install Dependencies
+Navigate into the project directory and install the required dependencies:
+=> cd TMDB_API
+=> npm install
+
+
