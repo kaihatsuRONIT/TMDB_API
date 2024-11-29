@@ -28,6 +28,7 @@ npm install
 # 3. Configure API Key
 This application uses the TMDB API to fetch data. You’ll need an API key from TMDB.
 
+
 Steps to get the TMDB API key:
 
 
@@ -42,5 +43,29 @@ Go to your account settings, then navigate to the API section.
 
 Generate a new API key.
 
-In tmdb.js replace import.meta.env.VITE_TMDB_API_KEY with your API key.*This is the most important step*
+
+In tmdb.js file, replace
+
+
+import.meta.env.VITE_TMDB_API_KEY
+
+s
+with your API key.
+
+
+*This is the most important step*
+
+
+# 4. Run the Application
+To start the development server, run the following command:
+
+
+npm run dev
+
+
+This will start the Vite development server
+
+
+# Thank You for Using TMDB API Explorer! 😊
+Let me know if you need further modifications to the README!
 
