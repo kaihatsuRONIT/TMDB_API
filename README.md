@@ -49,7 +49,7 @@ In tmdb.js file, replace
 
 import.meta.env.VITE_TMDB_API_KEY
 
-s
+
 with your API key.
 
 
