@@ -21,7 +21,26 @@ git clone https://github.com/your-username/TMDB_API.git
 Navigate into the project directory and install the required dependencies:
 
 
-=> cd TMDB_API
-=> npm install
+cd TMDB_API
 
+
+npm install
+# 3. Configure API Key
+This application uses the TMDB API to fetch data. You’ll need an API key from TMDB.
+
+Steps to get the TMDB API key:
+
+
+Visit TMDB.
+
+
+Create an account or log in.
+
+
+Go to your account settings, then navigate to the API section.
+
+
+Generate a new API key.
+
+In tmdb.js replace import.meta.env.VITE_TMDB_API_KEY with your API key.*This is the most important step*
 
